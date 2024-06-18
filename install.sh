@@ -200,15 +200,15 @@ install_theme() {
 # Fungsi untuk menghapus tema
 uninstall_theme() {
   echo -e "                                                       "
-  echo -e "${BIRU}[+] =============================================== [+]${NC}"
-  echo -e "${BIRU}[+]                    DELETE THEME                 [+]${NC}"
-  echo -e "${BIRU}[+] =============================================== [+]${NC}"
+  echo -e "${MERAH}[+] =============================================== [+]${NC}"
+  echo -e "${MERAH}[+]                    DELETE THEME                 [+]${NC}"
+  echo -e "${MERAH}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/AdanLedne/CeliaOffcial/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/AdanLedne/Pterodactyl-installer/main/repair.sh)
   echo -e "                                                       "
-  echo -e "${HIJAU}[+] =============================================== [+]${NC}"
-  echo -e "${HIJAU}[+]                 DELETE THEME SUKSES             [+]${NC}"
-  echo -e "${HIJAU}[+] =============================================== [+]${NC}"
+  echo -e "${MERAH}[+] =============================================== [+]${NC}"
+  echo -e "${MERAH}[+]                 DELETE THEME SUKSES             [+]${NC}"
+  echo -e "${MERAH}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   sleep 2
   clear
@@ -221,9 +221,9 @@ authenticate
 while true; do
   clear
   echo -e "                                                       "
-  echo -e "${BIRU}[+] =============================================== [+]${NC}"
-  echo -e "${BIRU}[+]                   SELECT OPTION                 [+]${NC}"
-  echo -e "${BIRU}[+] =============================================== [+]${NC}"
+  echo -e "${MERAH}[+] =============================================== [+]${NC}"
+  echo -e "${MERAH}[+]                   SELECT OPTION                 [+]${NC}"
+  echo -e "${MERAH}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "SELECT OPTION :"
   echo "1. Install theme"
