@@ -7,8 +7,6 @@ HIJAU='\033[0;32m'
 KUNING='\033[0;33m'
 NC='\033[0m'
 
-# Array untuk menyimpan token-token yang valid
-valid_tokens=("celia1022" "neolegacy122" "buy")
 
 # Fungsi untuk menampilkan pesan selamat datang
 display_welcome() {
@@ -33,27 +31,6 @@ display_welcome() {
   sleep 4
   clear
 }
-
-# Fungsi untuk melakukan otentikasi pengguna
-authenticate() {
-  local authenticated=false
-  echo -e "Masukkan token:"
-  read -r USER_TOKEN
-  
-  # Memeriksa apakah token pengguna cocok dengan salah satu dari token-token valid
-  for token in "${valid_tokens[@]}"; do
-    if [ "$USER_TOKEN" == "$token" ]; then
-      authenticated=true
-      break
-    fi
-  done
-  
-  if ! $authenticated; then
-    echo -e "${MERAH}Token tidak valid. Keluar.${NC}"
-    exit 1
-  fi
-}
-
 # Fungsi untuk menginstal tema
 install_theme() {
   while true; do
