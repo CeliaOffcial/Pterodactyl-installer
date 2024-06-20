@@ -204,7 +204,7 @@ uninstall_theme() {
   echo -e "${MERAH}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${MERAH}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/AdanLedne/Pterodactyl-installer/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/CeliaOffcial/Pterodactyl-installer/main/repair.sh)
   echo -e "                                                       "
   echo -e "${MERAH}[+] =============================================== [+]${NC}"
   echo -e "${MERAH}[+]                 DELETE THEME SUKSES             [+]${NC}"
