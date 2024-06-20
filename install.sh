@@ -8,29 +8,7 @@ KUNING='\033[0;33m'
 NC='\033[0m'
 
 
-# Fungsi untuk menampilkan pesan selamat datang
-display_welcome() {
-  echo -e ""
-  echo -e "${MERAH}[+] =============================================== [+]${NC}"
-  echo -e "${MERAH}[+]                                                 [+]${NC}"
-  echo -e "${MERAH}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${MERAH}[+]                  © CELIA OFFICIAL                [+]${NC}"
-  echo -e "${MERAH}[+]                                                 [+]${NC}"
-  echo -e "${MERAH}[+] =============================================== [+]${NC}"
-  echo -e ""
-  echo -e "Script ini dibuat untuk mempermudah penginstalan tema Pterodactyl,"
-  echo -e "dilarang keras untuk diperjualbelikan. BY @CeliaOffcial"
-  echo -e ""
-  echo -e "𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 :"
-  echo -e "083173488914"
-  echo -e "𝗬𝗢𝗨𝗧𝗨𝗕𝗘 :"
-  echo -e "@CeliaOffcial"
-  echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "CeliaOffcial"
-  echo -e "Celia Official"
-  sleep 4
-  clear
-}
+
 # Fungsi untuk menginstal tema
 install_theme() {
   while true; do
