@@ -1,4 +1,4 @@
 Theme by Celia Official ✅ 
 
 command:
-bash <(curl -sl https://raw.githubusercontent.com/AdanLedne/Pterodactyl-installer/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/CeliaOffcial/Pterodactyl-installer/main/install.sh)
