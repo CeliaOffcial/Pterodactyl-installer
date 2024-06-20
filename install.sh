@@ -7,7 +7,7 @@ HIJAU='\033[0;32m'
 KUNING='\033[0;33m'
 NC='\033[0m'
 
-
+}
 
 # Fungsi untuk menginstal tema
 install_theme() {
